@@ -12,3 +12,9 @@ function getCategorias() {
 		    }
 		});
 }
+
+function getImagensCategorias(CatId) {
+    var url = `http://ipt-ti2-racinglegends-api.eu-gb.mybluemix.net/api/v1/categories/${CatId}/image`;
+
+    return url;
+}
